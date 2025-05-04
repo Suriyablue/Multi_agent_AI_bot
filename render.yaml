@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: multi-agent-ai-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host=0.0.0.0 --port=${PORT}
+    envVars:
+      - key: GEMINI_API_KEY
+        value: AIzaSyB1qyfDfJVgiIDA_07C5aC3GqfTtIFhnp0
+      - key: WEATHER_API_KEY
+        value: de597776721c02fd9d5705a8498963b0
+      - key: STOCK_API_KEY
+        value: Z522M4H9MPBL50GY
