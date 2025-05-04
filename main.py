@@ -1,10 +1,11 @@
 from fastapi import FastAPI, HTTPException
 import google.generativeai as genai
 import uvicorn
-from weather_api import get_weather_data  # Renamed function
+from weather_api import get_weather_data# Renamed function
 from stock_api import get_stock_news  # Renamed function
 from dotenv import load_dotenv
 import os
+import requests
 
 load_dotenv()
 
