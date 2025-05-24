@@ -18,7 +18,7 @@ async def get_weather_data(city: str):
         HTTPException: If there's any error fetching weather data
     """
     try:
-        # Get and validate API key
+        
         api_key = os.getenv("WEATHER_API_KEY", "").strip()
         if not api_key:
             raise HTTPException(

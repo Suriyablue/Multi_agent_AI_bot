@@ -19,12 +19,7 @@ app = FastAPI(
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 model = genai.GenerativeModel("gemini-1.5-flash")
 
-# Add at the start of your function
-try:
-    test_connection = requests.get("http://api.openweathermap.org", timeout=5)
-    print("Connection to OpenWeather successful")
-except:
-    print("Cannot reach OpenWeatherMap servers")
+
 @app.get("/query")
 async def process_query(query: str):
     """Endpoint to handle all types of queries"""
