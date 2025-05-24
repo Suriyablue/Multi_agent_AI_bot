@@ -59,4 +59,4 @@ async def get_weather_data(city: str):
         raise HTTPException(
             status_code=400,
             detail=f"Failed to get weather data: {str(e)}"
-        )
+
