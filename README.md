@@ -25,6 +25,6 @@ A multi-agent system coordinates multiple specialized AI agents (weather, stock,
    import google.generativeai as genai
    import uvicorn
    from dotenv import load_dotenv
-![altimage](Screenshot 202025-05-24%20185506.png)
+![altimage](Screenshot 2025-05-24 185506.png)
 ![altimage](Screenshot 2025-05-24 190106.png)
 ![altimage](Screenshot 2025-05-24 190145.png)
