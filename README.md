@@ -28,6 +28,7 @@ A multi-agent system coordinates multiple specialized AI agents (weather, stock,
 ## GEMINI_API result:  
 ![General](images/general.png)
 DESCRIPTION :
+
 -Shows Gemini answering general questions.
 
 -Acts as the main interface for user interaction.
@@ -35,6 +36,7 @@ ________________________________________________________________________________
 ## STOCK_API result:
 ![Stock](images/stock.png)
 DESCRIPTION :
+
 -Displays results from the Stock API.
 
 -Triggered when questions include company names related to stocks.
@@ -42,6 +44,7 @@ ________________________________________________________________________________
 ## WEATHER_API result:
 ![Weather](images/weather.png)
 DESCRIPTION :
+
 -Shows output from the Weather API.
 
 -Used when questions relate to weather conditions and city name.
