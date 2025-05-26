@@ -25,7 +25,10 @@ A multi-agent system coordinates multiple specialized AI agents (weather, stock,
    import google.generativeai as genai
    import uvicorn
    from dotenv import load_dotenv
+## GEMINI_API result:  
 ![General](images/general.png)
+## STOCK_API result:
 ![Stock](images/stock.png)
+## WEATHER_API result:
 ![Weather](images/weather.png)
 
